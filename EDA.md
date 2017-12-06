@@ -1,6 +1,6 @@
 ---
 nav_include: 1
-title: Models
+title: EDA
 notebook: EDA.ipynb
 ---
 
