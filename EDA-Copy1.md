@@ -1,8 +1,8 @@
 
-
-
-
-
+---
+nav_include: 1
+title: EDA
+---
 
 
 
