@@ -1,6 +1,6 @@
 theme: jekyll-theme-primer
-title: Support Vector Olives
-description: Keeping Italian Olives Pure!
+title: Problem Statement and Motivation
+description: Building a model to predict crime in the US
 baseurl:
 markdown: kramdown
 kramdown:
