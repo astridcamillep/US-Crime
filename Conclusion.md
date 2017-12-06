@@ -1,6 +1,6 @@
 ---
 nav_include: 6
-title: Results/Conclusion
+title: Results
 notebook: EDA.ipynb
 ---
 

@@ -1,5 +1,5 @@
 theme: jekyll-theme-primer
-title: Problem Statement and Motivation
+title: Motivation
 description: Building a model to predict crime in the US
 baseurl:
 markdown: kramdown

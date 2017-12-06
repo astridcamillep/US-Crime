@@ -1,6 +1,6 @@
 ---
 nav_include: 3
-title: Introduction and Description of Data
+title: Data Description
 notebook: EDA.ipynb
 ---
 
