@@ -1,4 +1,5 @@
 ---
+nav_include: 1
 title: Predicting Crime in the US Metropolitan Areas
 ---
 
