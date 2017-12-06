@@ -1,5 +1,5 @@
 ---
-nav_include: 5
+nav_include: 2
 title: Models
 notebook: EDA.ipynb
 ---
