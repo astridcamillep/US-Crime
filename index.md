@@ -2,14 +2,7 @@
 title: Predicting Crime in the US Metropolitan Areas
 ---
 
-This is the home page
+Among the 18 largest metropolitan areas in the US, there has been an increasing trend throughout the last 10 years in the annual number of reported murders per 100,000 inhabitants. 
 
-## Lets have fun
+Our goal with this project is to build a model to predict murder rates among the United States' metropolitan areas. For this, we use data on demographic characteristics for over 400 Metropolitan Statistical Areas (MSAs) and for the period covering 2006-2016. 
 
->here is a quote
-
-Here is *emph* and **bold**.
-
-Here is some inline math $\alpha = \frac{\beta}{\gamma}$ and, of-course, E rules:
-
-$$ G_{\mu\nu} + \Lambda g_{\mu\nu}  = 8 \pi T_{\mu\nu} . $$
