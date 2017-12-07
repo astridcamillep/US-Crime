@@ -1,7 +1,8 @@
 
 ---
-nav_include: 2
+nav_include: 1
 title: EDA
+notebook: EDA-Copy1.ipynb
 ---
 
 
