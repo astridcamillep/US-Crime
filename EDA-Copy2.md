@@ -1,6 +1,6 @@
 
 ---
-nav_include: 1
+nav_include: 6
 title: EDA
 notebook: EDA-Copy2.ipynb
 ---
