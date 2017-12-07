@@ -1,7 +1,7 @@
 ---
 nav_include: 2
 title: Models
-notebook: EDA.ipynb
+notebook: EDA-Copy2.ipynb
 ---
 
 
