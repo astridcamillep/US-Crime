@@ -1,7 +1,6 @@
 ---
 nav_include: 3
 title: Data Description
-notebook: EDA.ipynb
 ---
 
 
