@@ -8,8 +8,7 @@ title: Data Description
 *  
 {: toc}
 
-
-Here's a brief description of the different data sources used for this analysis. 
+Here's a brief description of the different sources of data used and the procedures applied for its analysis. 
 
 ## Sources of Data
 
