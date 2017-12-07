@@ -1,4 +1,11 @@
 
+---
+nav_include: 1
+title: EDA
+notebook: EDA-Copy2.ipynb
+---
+
+
 
 
 
@@ -127,7 +134,7 @@ The 18 MSAs chosen for the analysis and their respective populations in 2016 are
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_8_1.png)
+![png](EDA-Copy2_files/EDA-Copy2_8_1.png)
 
 
 
@@ -171,7 +178,7 @@ The 18 MSAs chosen for the analysis and their respective populations in 2016 are
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_12_1.png)
+![png](EDA-Copy2_files/EDA-Copy2_12_1.png)
 
 
 Because the purpose of our analysis is to build a model to predict murder in the next few years, below we show the average number of reported murders per 100,000 inhabitants for the chosen MSAs across 2006-2016. From the graph below we can see that the MSAs with the highest murder rates (among the MSAs chosen) are those corresponding to Detroit-Warren-Livonia and New York-Newark-Jersey City. 
@@ -205,7 +212,7 @@ Because the purpose of our analysis is to build a model to predict murder in the
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_14_1.png)
+![png](EDA-Copy2_files/EDA-Copy2_14_1.png)
 
 
 
@@ -228,7 +235,7 @@ When we assess the correlation between these different types of crime we can see
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_17_1.png)
+![png](EDA-Copy2_files/EDA-Copy2_17_1.png)
 
 
 
@@ -258,7 +265,7 @@ df_small["msa"] = df_small["msa_id"].map({12060: "Atlanta", 14460: "Boston", 169
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_21_1.png)
+![png](EDA-Copy2_files/EDA-Copy2_21_1.png)
 
 
 
@@ -307,14 +314,14 @@ fig.subplots_adjust(hspace = 0.5, wspace=.2)
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_25_0.png)
+![png](EDA-Copy2_files/EDA-Copy2_25_0.png)
 
 
 For the following analysis we use all 400+ MSAs in the US and limit our sample to the year 2016. Moreover, we create a variable for "high-murder" areas, where "high-murder" areas are those MSAs where the murder rate exceeds the median murder rate for 2016, which was approximately 4. 
 
 By doing this we observe some interesting differences between high vs. low murder areas. First, we see that poverty rates are on average higher in high-murder areas than in low-murder ones. Second, we find that there's on average higher unemployment rates in high-murder areas. 
 
-Our most interesting finding is related to median earnings. We observe that, on average, median income across these two types of areas is very similar. The main difference is that there's slightly less variation in median income in high-murder areas (median incomes are concentrated closer to their mean). Although this is not part of the scope of our analysis, it'd be interesting to assess variation of median income *within* MSAs, as it might be the case that although median income is the same, there might be large
+Our most interesting finding is related to median earnings. We observe that, on average, median income across these two types of areas is very similar. The main difference is that there's slightly less variation in median income in high-murder areas (median incomes are concentrated closer to their mean). Although this is not part of the scope of our analysis, it'd be interesting to assess variation of median income *within* MSAs, as it might be the case that although median income is the same, there might be large variation (and therefore inequality) within MSAs. 
 
 
 
@@ -322,7 +329,7 @@ Our most interesting finding is related to median earnings. We observe that, on 
 
 
 
-![png](EDA-Copy1_files/EDA-Copy1_27_0.png)
+![png](EDA-Copy2_files/EDA-Copy2_27_0.png)
 
 
 
@@ -346,32 +353,4 @@ df_2016['murder_rate'].describe()
     max       20.197940
     Name: murder_rate, dtype: float64
 
-
-
-
-
-```python
-
-```
-
-
-
-
-```python
-
-```
-
-
-
-
-```python
-
-```
-
-
-
-
-```python
-
-```
 
